@@ -1,5 +1,5 @@
 /*
-Lesson 17 
+Lesson 14
 Task: Types of triangle
 Triangles can be classified based on the length of the sides relative to one another. 
 If all the sides of  triangle are equal, that triangle is called Equilateral triangle

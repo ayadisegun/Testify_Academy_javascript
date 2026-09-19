@@ -1,24 +1,15 @@
 /*
-Lesson 17 
-Task: The Odd Ones
-Odd numbers are NOT divisible by 2. 
-Write a Javascript program that prints out all the odd numbers between 1 and 20. Your code must use a for-loop.
+Lesson 18 
+Task: Area Of a Rectangle
+Write JavaScript function, calculateAreaOfRectangle. The function should
+Take two parameters, length and width. 
+Multiply the length and width
+Log the product to the console
 */
-
-
-for (let number = 1; number<=20; number ++)
-    if (number % 2 === 0){
-        console.log(number + " is an even number")
-    }
-    else if (number % 2 != 0){
-        console.log(number + " is an odd number")
-    }
-
-    //or 
-console.log("printing odd numbers alone")
-for (let number = 1; number<=20; number ++)
-    if (number % 2 != 0){
-        console.log(number)
-    }
-
-
+const length = 3
+const breath = 4
+const calculateAreaOfRectangle = function (l, b){
+    output = (l * b)
+    console.log(output)
+}
+areaOfRectangle = calculateAreaOfRectangle(length, breath)
